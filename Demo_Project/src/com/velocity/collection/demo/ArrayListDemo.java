@@ -20,7 +20,11 @@ public class ArrayListDemo {
 		{
 			System.out.println(itr.next());
 		}
-			
+		
+		System.out.println("***End of program***");
+		for(Object obj:arrayList) {
+			System.out.println(obj);
+		}
 	}
 
 }
